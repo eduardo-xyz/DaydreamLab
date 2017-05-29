@@ -27,13 +27,34 @@ Si usted se encuentra en un taller o en un salón de clases, busque los archivos
 - Plano: 0, 0, 0
 - Cubo: 0, 0.5, 0
 - Camara: 0, 1, -10
-![Posiciones](images/possition.png)
+![Posiciones](images/position.png)
 6. De click en play, para que vea cómo va quedando. Para regresar a la vista de edición de la escena click en play nuevamente.
 ![Play](images/play.png)
 Note que en este momento tenemos una vista panorámica similar a la de cualquier juego 3D.
 7. En el menú seleccione File / Save Scenes y nombrela algo como "First scene", deberá quedar en el folder Assets.
 
-## Daydrean SDK
+## Importar Daydrean SDK
+
+1. Desde el menú Assets / Import Package / Custom Package y seleccione el archivo que descargamos "GoogleVRForUnity.unitypackage".
+![Importar Daydream](images/import-package.png)
+2. Seleccione Open, y luego Import.
+3. Si Unity pide algún "API upgrade" seleccione que si.
+
+## Configuración según plataforma
+
+### Si su celular es Android
+
+1. Desde el menú, seleccione File / Build Settings.
+2. En la lista de plataformas, seleccione Androis y de click en "Switch Platform".
+![Cambiar de plataforma](images/switch-platform.png)
+3. Una vez que el proceso termine, haga click en "Player Settings" para mostrar las opciones en el panel derecho, "Inspector".
+![Opciones del player](images/player-settings.png)
+4. En el Inspector, Other Settings, active la opción "Virtual Reality Suported". En la lista de SDKs, agregue "Cardboard".
+![Opciones del player](images/vr-support.png)
+5. Más abajo en esa misma categpría, cambie la opción Identification / Package Name. Esta debe tener la configuración de un dominio a la inversa, si necesita ayuda solicítela, esta debe ser única.
+![Opciones del player](images/package-name.png)
+6. En la opción "Minimum API Level", seleccione la opción "Android 4.4 'Kit Kat' (API level 19)".
+![Opciones del player](images/api-lvl.png)
 
 
 
