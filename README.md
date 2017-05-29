@@ -10,4 +10,11 @@ La realidad virtual es cada vez más importante y reelevante en nuestras vidas. 
 * Al instalarlo, asegúrese de activar "Android Build Support" y "iOS Build Support".
 * Descargue el [Google VR SDK para Unity](https://developers.google.com/vr/unity/download#google-vr-sdk-for-unity).
 
-Si usted se encuentra en un taller o en un salón de clases, busque los archivos en el escritorio.
+Si usted se encuentra en un taller o en un salón de clases, busque los archivos en el escritorio del computador.
+
+* Necesitará un Google Cardboard o dispositovo Daydream con un teléfono para probar el juego.
+
+## Inicio
+
+1. Cree un nuevo proyecto en Unity.
+[Nuevo proyecto](images/new-project.png)
