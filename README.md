@@ -16,6 +16,8 @@ Si usted se encuentra en un taller o en un salón de clases, busque los archivos
 
 ## Inicio
 
-1. Cree un nuevo proyecto en Unity.
-
+1. Cree un nuevo proyecto 3D en Unity.
 ![Nuevo proyecto](images/new-project.png)
+2. Descargue [los assets](https://goo.gl/rgJF7F) para el proyecto. Si se encuentra en un laboratorio o un salón de clases, estos archivos podrá encontrarlos en el escritorio.
+
+3. Cree un plano
