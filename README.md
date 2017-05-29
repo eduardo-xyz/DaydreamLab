@@ -18,6 +18,10 @@ Si usted se encuentra en un taller o en un salón de clases, busque los archivos
 
 1. Cree un nuevo proyecto 3D en Unity.
 ![Nuevo proyecto](images/new-project.png)
-2. Descargue [los assets](https://goo.gl/rgJF7F) para el proyecto. Si se encuentra en un laboratorio o un salón de clases, estos archivos podrá encontrarlos en el escritorio.
-
-3. Cree un plano
+2. Familiarcese con la pantalla, solicite ayuda si lo cree necesario.
+3. Ingrese un nuevo plano, desde el menú GameObject/3D Object/Plane o click derecho en el panel de Hierarchy 3D Object/Plane.
+![Nuevo plano](images/new-plane.gif)
+3. Descargue [los assets](https://goo.gl/rgJF7F) para el proyecto. Si se encuentra en un laboratorio o un salón de clases, estos archivos podrá encontrarlos en el escritorio.
+4. De doble click a los assets, llamados "CastleDefense.unitypackage", asegúrese de que todos estén marcados y seleccione import.
+![Importar assets](images/import-assets.png)
+5. Cree un plano
