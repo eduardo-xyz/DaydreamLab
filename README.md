@@ -17,4 +17,4 @@ Si usted se encuentra en un taller o en un salón de clases, busque los archivos
 ## Inicio
 
 1. Cree un nuevo proyecto en Unity.
-[Nuevo proyecto](images/new-project.png)
+![Nuevo proyecto](images/new-project.png)
