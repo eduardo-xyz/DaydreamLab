@@ -61,14 +61,17 @@ Note que en este momento tenemos una vista panorámica similar a la de cualquier
 
 1. Desde el menú, seleccione File / Build Settings.
 2. En la lista de plataformas, seleccione iOS y de click en "Switch Platform".
+
 ![Cambiar de plataforma](images/switch-platform-ios.png)
 3. Una vez que el proceso termine, haga click en "Player Settings" para mostrar las opciones en el panel derecho, "Inspector".
 ![Opciones del player](images/player-settings-ios.png)
 4. En el inspector, "Resolution and Presentation", en las opciones de "Allowed Orientations for Auto Rotation", selecciones solamente "Landscape Left".
 ![Auto rotación](images/auto-rotation.png)
 5. Más abajo en la categoría "Other Settings", active la opción "Virtual Reality Suported". En la lista de SDKs, agregue "Cardboard".
+
 ![Opciones del player](images/vr-support-ios.png)
 6. Más abajo en la misma categoría "Other Settings", cambie la opción Identification / Bundle Identifier. Esta debe tener la configuración de un dominio a la inversa, si necesita ayuda solicítela, esta debe ser única.
+
 ![Opciones del player](images/package-name-ios.png)
 
 ## Demostración
