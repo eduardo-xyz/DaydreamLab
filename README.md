@@ -45,22 +45,38 @@ Note que en este momento tenemos una vista panorámica similar a la de cualquier
 ### Si su celular es Android
 
 1. Desde el menú, seleccione File / Build Settings.
-2. En la lista de plataformas, seleccione Androis y de click en "Switch Platform".
+2. En la lista de plataformas, seleccione Android y de click en "Switch Platform".
 ![Cambiar de plataforma](images/switch-platform.png)
 3. Una vez que el proceso termine, haga click en "Player Settings" para mostrar las opciones en el panel derecho, "Inspector".
 ![Opciones del player](images/player-settings.png)
-4. En el Inspector, Other Settings, active la opción "Virtual Reality Suported". En la lista de SDKs, agregue "Cardboard".
+4. En el Inspector, "Other Settings", active la opción "Virtual Reality Suported". En la lista de SDKs, agregue "Cardboard".
 ![Opciones del player](images/vr-support.png)
-5. Más abajo en esa misma categpría, cambie la opción Identification / Package Name. Esta debe tener la configuración de un dominio a la inversa, si necesita ayuda solicítela, esta debe ser única.
+5. Más abajo en esa misma categoría, cambie la opción Identification / Package Name. Esta debe tener la configuración de un dominio a la inversa, si necesita ayuda solicítela, esta debe ser única.
 ![Opciones del player](images/package-name.png)
 6. En la opción "Minimum API Level", seleccione la opción "Android 4.4 'Kit Kat' (API level 19)".
 ![Opciones del player](images/api-lvl.png)
+7. Si en algún momento Unity le pide la ubicación del Android SDK, pida ayuda si la necesita.
+
+### Si su celular es iOS
+
+1. Desde el menú, seleccione File / Build Settings.
+2. En la lista de plataformas, seleccione iOS y de click en "Switch Platform".
+![Cambiar de plataforma](images/switch-platform-ios.png)
+3. Una vez que el proceso termine, haga click en "Player Settings" para mostrar las opciones en el panel derecho, "Inspector".
+![Opciones del player](images/player-settings-ios.png)
+4. En el inspector, "Resolution and Presentation", en las opciones de "Allowed Orientations for Auto Rotation", selecciones solamente "Landscape Left".
+![Auto rotación](images/auto-rotation.png)
+5. Más abajo en la categoría "Other Settings", active la opción "Virtual Reality Suported". En la lista de SDKs, agregue "Cardboard".
+![Opciones del player](images/vr-support-ios.png)
+6. Más abajo en la misma categoría "Other Settings", cambie la opción Identification / Bundle Identifier. Esta debe tener la configuración de un dominio a la inversa, si necesita ayuda solicítela, esta debe ser única.
+![Opciones del player](images/package-name-ios.png)
+
+## Demostración
+
+1. Cierre las ventanas de opciones.
+2. Conecte por medio USB su teléfono a su computadora.
+3. En los Assets, se encontrará unos scenes de ejemplo en GoogleVR / Demos / Scenes.
+4. Seleccione la escena GVRDemo, dele doble click para abrirla.
+5. Desde el menu, seleccione File / Build and Run.
 
 
-
-
-
-3. Descargue [los assets](https://goo.gl/rgJF7F) para el proyecto. Si se encuentra en un laboratorio o un salón de clases, estos archivos podrá encontrarlos en el escritorio.
-4. De doble click a los assets, llamados "CastleDefense.unitypackage", asegúrese de que todos estén marcados y seleccione import.
-![Importar assets](images/import-assets.png)
-5. Cree un plano
